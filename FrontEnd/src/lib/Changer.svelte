@@ -1,27 +1,18 @@
 <script>
-  const m = [
-    "零",
-    "壹",
-    "贰",
-    "叁",
-    "肆",
-    "伍",
-    "陆",
-    "柒",
-    "捌",
-    "玖",
-    "拾",
-    "佰",
-    "仟",
-  ];
   let number = 0;
-  $: bigNumber = (() => {
+  let bigNumber = ""
+  
+  const getBig = () => {
     if (number < 0 || number > 999999999999) {
       alert("错误输入")
-      return "错误输入";
+      return 
     }
-    return digitToCNchar(number)
-  })();
+    bigNumber =  digitToCNchar(number)
+  }
+
+  const getSmall = () => {
+    //暂无实现
+  }
 
   function digitToCNchar(money) {
     const digit = ["零", "壹", "贰", "叁", "肆", "伍", "陆", "柒", "捌", "玖"];
@@ -67,9 +58,9 @@
     <img src="src\assets\fuda.jpg" class="absolute top-10 left-10 w-20 h-20 rounded-full" alt="">
     <div class="flex flex-col items-center">
       <div class="font-bold text-4xl text-red-400">大小写转换</div>
-      <textarea type="number" bind:value={number} cols="20"  class="m-4 p-4"/>
-      <button class="bg-red-400 rounded-full p-2 text-white w-20 cursor-pointer">转换</button>
-      <textarea type="number" bind:value={bigNumber} cols="20" class="m-4 p-4" />
+      <textarea type="number" bind:value={number} cols="40"  class="m-4 p-4"/>
+      <button class="bg-red-400 rounded-full p-2 text-white w-20 cursor-pointer" on:click={getBig}>转换</button>
+      <textarea type="number" bind:value={bigNumber} cols="40" class="m-4 p-4" />
     </div>
     <img src="src/assets/robot.png" alt="" class="absolute w-64 right-0 bottom-0 translate-y-3/4">
   </div>
