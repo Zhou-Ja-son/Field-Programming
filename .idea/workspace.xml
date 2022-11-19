@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7a3aaab-b1ce-4d30-ab8d-9c20c699ffb9" name="变更" comment="" />
+    <list default="true" id="e7a3aaab-b1ce-4d30-ab8d-9c20c699ffb9" name="变更" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_python_jython_standalone_2_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEnd/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,14 +25,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="D:/Programming Language/maven/apache-maven-3.6.1" />
-        <option name="userSettingsFile" value="D:\Programming Language\maven\apache-maven-3.6.1\conf\settings.xml" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="2HkqPQOGbwhNtxiLnj8E3i7eqs8" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
@@ -37,7 +34,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/BackEnd" />
-    <property name="project.structure.last.edited" value="模块" />
+    <property name="project.structure.last.edited" value="SDK" />
     <property name="project.structure.proportion" value="0.15332031" />
     <property name="project.structure.side.proportion" value="0.33718246" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
@@ -86,6 +83,8 @@
       <option name="presentableId" value="Default" />
       <updated>1668839406422</updated>
       <workItem from="1668839408247" duration="612000" />
+      <workItem from="1668842235987" duration="412000" />
+      <workItem from="1668842661951" duration="83000" />
     </task>
     <servers />
   </component>
@@ -102,5 +101,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
